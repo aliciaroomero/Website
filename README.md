@@ -1,5 +1,5 @@
 Aquí están todos los documentos que he utilizado para llevar a cabo mi [página web](https://aliciaroomero.github.io/Website/) con todas las prácticas de la asignatura de Bioinformática.\
-__ESTRUCTURA DE LA PAGÍNA WEB__:\
+__ESTRUCTURA DE LA PAGÍNA WEB__:
 - Website: acerca de qué va la página web.
 - Acerca de mí: información sobre la autora de la página web y datos de contacto.
 Por otro lado, al hacer click la pestaña *Website* se pueden observar las prácticas realizadas.\
