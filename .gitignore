@@ -1,0 +1,16 @@
+
+*.Identifier
+.quarto/
+.Rproj.user/
+.Rhistory
+.RData
+
+/.quarto/
+.Rproj.user/
+data/
+*.fastq
+*.fastq.gz
+*.phr
+*.psq
+*.btd
+*.sqlite3

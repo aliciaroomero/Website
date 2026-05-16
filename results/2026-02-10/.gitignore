@@ -1,0 +1,33 @@
+*.bam
+*.bai
+*.fastq
+*.fai
+.Rhistory
+DRR025089_*
+Practica 3_files/
+Practica-3_files/
+referencia.fa*
+
+# Bioinformática - Alineamiento y secuencias
+*.bam
+*.bai
+*.sam
+*.fastq
+*.vcf
+*.fai
+*.ann
+*.bwt
+*.pac
+*.sa
+*.amb
+
+# Reportes y Logs
+fastp.json
+fastp.html
+*.err
+*.stats
+log_descarga
+
+# Carpetas de salida y temporales
+Practica*_files/
+.Rhistory

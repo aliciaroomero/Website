@@ -1,0 +1,200 @@
+    1  sudo apt update
+    2  sudo apt install git build-essential autoconf automake libtool python3 r-base
+    3  apt install emboss exonerate wget muscle
+    4  sudo apt install emboss exonerate wget muscle
+    5  pwd
+    6  cd Bpracticas
+    7  cd
+    8  cd "Bpracticas"
+    9  cd ..
+   10  cd Bpracticas
+   11  cd Desktop
+   12  pwd
+   13  ls-lh
+   14  cd Documentos/
+   15  ls - lh
+   16  ls-lh
+   17  cd ..
+   18  cd Escritorio/
+   19  cd Documentos/
+   20  pwd
+   21  cd Desktop
+   22  cd Desktop/
+   23  pwd
+   24  cd..
+   25  cd ..
+   26  cd Bpracticas/
+   27  pwd
+   28  mkdir cuaderno
+   29  cd cuaderno
+   30  pwd
+   31  mkdir data
+   32  mkdir doc
+   33  mkdir results
+   34  cd results
+   35  pwd
+   36  mkdir 2026-01-29
+   37  mkdir 2026-02-03
+   38  mkdir 2026-02-10
+   39  mkdir 2026-02-17
+   40  mkdir 2026-03-03
+   41  mkdir 2020-03-10
+   42  mkdir 2026-03-24
+   43  mkdir 2026-03-31
+   44  mkdir 2026-04-15
+   45  mkdir 2026-04-21
+   46  mkdir 2026-04-28
+   47  mkdir 2026-05-05
+   48  cd 2026-01-29
+   49  cd ..
+   50  pwd
+   51  cd 2026-01-29
+   52  pwd
+   53  mv guio-es.Qmd README.qmd
+   54  needle -help - verbose
+   55  water -help - verbose
+   56  git --version
+   57  apt install git
+   58  git config --global user.name "Alicia Romero"
+   59  git config --global user.email "osuna2@alumni.uv.es"
+   60  git config--list
+   61  git --help
+   62  git config --global core.editor "nano -w"
+   63  git config --global init.defaylBranch soca
+   64  git config --list
+   65  git init
+   66  git status
+   67  pwd
+   68  rm -rf .git
+   69  cd cuaderno
+   70  git init
+   71  git status
+   72  git add doc
+   73  git status
+   74  git add results
+   75  git status
+   76  git commit -m "Iniciada la primera práctica, aunque el alineamiento no está hecho todavía."
+   77  git status
+   78  git log
+   79  .gitignore
+   80  data/
+   81  *.bam
+   82  .gitignore
+   83  data/
+   84  *.bam
+   85  .gitignore
+   86  nano .gitignore
+   87  git log
+   88  nano LICENSE.txt
+   89  ssh-keygen -t ed25519 -C "osuna2@alumni.uv.es"
+   90  cat ~/.ssh/ed25519.pub
+   91  cd .ssh
+   92  cd ..
+   93  cat ~/.ssh/ed25519.pub
+   94  cd cuaderno
+   95  cd ..
+   96  cd .ssh
+   97  cat ~/.ssh/ed25519.pub
+   98  cd ..
+   99  cat ~/.ssh/ed25519.pub
+  100  cd cuaderno
+  101  cat ~/.ssh/id_ed25519.pub
+  102  git remote add origin git@github.com:aliciaroomero/cuaderno.git
+  103  git push -u origin soca
+  104  git config --list
+  105  git status
+  106  git add LICENSE.txt
+  107  git commit "Mensaje sobre licencia"
+  108  git status
+  109  git push -u origin master
+  110  git push
+  111  git pull
+  112  git fetch
+  113  git status
+  114  git commit -m "Mensaje acerca de la licencia utilizada"
+  115  git status
+  116  git push
+  117  history> archivo.txt
+  118  history > practica2
+  119  pwd
+  120  cd cuaderno
+  121  git branch -m master soca
+  122  git config --list
+  123  git config --global --unset init.defayltBranch
+  124  git config --list
+  125  git config --global init.defaultBranch soca
+  126  git status
+  127  git config --list
+  128  git config --global --unset init.defaylbranch
+  129  nano
+  130  git status
+  131  git pull
+  132  git status
+  133  git push -u origin soca
+  134  git push
+  135  git pull
+  136  cd cuaderno
+  137  git pull
+  138  git statu
+  139  git status
+  140  cd cuaderno
+  141  cd ..
+  142  mkdir bin
+  143  cd bin
+  144  wget http://opengene.org/fastp/fastp
+  145  chmod a+x ./fastp
+  146  echo $PATH
+  147  git clone https://github.com/lh3/bwa.git
+  148  cd bwa
+  149  make
+  150  cd ..
+  151  apt install samtools
+  152  sudo apt install samtools
+  153  git clonehttps://github.com/freebayes/freebayes.git
+  154  git clone https://github.com/freebayes/freebayes.git
+  155  cd freebayes
+  156  make
+  157  cd ..
+  158  cd cuaderno
+  159  cd data
+  160  if [ ! -e DRR025089_1.fastq.gz ]; then
+   wget -o /dev/null         ftp://ftp.sra.ebi.ac.uk/vol1/fastq/DRR025/DRR025089/DRR025089_1.fastq.gz; fi
+  161  if [ ! -e DRR025089_2.fastq.gz ]; then    wget -o /dev/null         ftp://ftp.sra.ebi.ac.uk/vol1/fastq/DRR025/DRR025089/DRR025089_2.fastq.gz; fi
+  162  gunzip -c DRR025089_1.fastq.gz | less -S
+  163  gunzip -c DRR025089_2.fastq.gz | less -S
+  164  gunzip -c DRR025089_1.fastq.gz | less -S
+  165  gunzip -c DRR025089_1.fastq.gz | wc -l
+  166  if [ ! -e referencia.fa ]; then    wget -o /dev/null -O referencia.fa         https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_042137995.2 ; fi
+  167  zless -c referencia.fa | less -S
+  168  less -c referencia.fa
+  169  less -c referencia.fa | wc -l
+  170  less -c referencia.fa
+  171  if [ ! -e fastp.html ]; then
+   fastp -i DRR025089_1.fastq.gz          -o DRR025089_1_clean.fastq          -I DRR025089_2.fastq.gz          -O DRR025089_2_clean.fastq          --merge          --merged_out DRR025089_m_clean.fastq; fi
+  172  sudo apt install fastp
+  173  if [ ! -e fastp.html ]; then
+   fastp -i DRR025089_1.fastq.gz          -o DRR025089_1_clean.fastq          -I DRR025089_2.fastq.gz          -O DRR025089_2_clean.fastq          --merge          --merged_out DRR025089_m_clean.fastq; fi
+  174  cd ..
+  175  cd results
+  176  cd 2026-02-10
+  177  fastp -h
+  178  cd ..
+  179  git status
+  180  git add results/2026-02-10/
+  181  git status
+  182  gitt add results/2026-02-10/guio-es (3).qmd
+  183  git add  results/2026-02-10/guio-es (3).qmd
+  184  git add results/2026-02-10/guio-es (3).qmd
+  185  git status
+  186  git add results/2026-02-10/guio-es (3).qmd...
+  187  git add results/2026-02-10/guio-es (3).qmd
+  188  git add results/2026-02-10/guio-es\ \(3\).qmd 
+  189  git status
+  190  git commit -m "Guion de prácticas con anotaciones realizadas durante la misma. Junto a fastp report obtenido".
+  191  git push
+  192  git pull
+  193  git status
+  194  cd 2026-02-10
+  195  cd results
+  196  cd 2026-02-10
+  197  history > practica3

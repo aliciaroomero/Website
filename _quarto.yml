@@ -1,0 +1,65 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - index.qmd
+    - about.qmd
+    - results/2026-01-29/P1.qmd
+    - results/2026-02-03/P2.qmd
+    - results/2026-02-10/P3.qmd
+    - results/2026-02-17/P4.qmd
+    - results/2026-02-24/P5.qmd
+    - results/2026-03-03/P6.qmd
+    - results/2026-03-10/P7.qmd
+    - results/2026-03-24/P8.qmd
+    - results/2026-03-31/P9.qmd
+    - results/2026-04-21/P10.qmd
+    - results/2026-04-28/P11.qmd
+    - results/2026-05-05/P12.qmd
+
+website:
+  title: "Cuaderno de Bioinformática"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Inicio
+      - href: about.qmd
+        text: "Acerca de mí..."
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Prácticas"
+        contents:
+          - href: "results/2026-01-29/P1.qmd"
+            text: "Práctica 1: Nociones de Bash y alineamientos básicos"
+          - href: "results/2026-02-03/P2.qmd"
+            text: "Práctica 2: Control de versiones con Git"
+          - href: "results/2026-02-10/P3.qmd"
+            text: "Práctica 3: Mapeo de secuencias cortas"
+          - href: "results/2026-02-17/P4.qmd"
+            text: "Práctica 4: Tablas en R o marcos de datos con R"
+          - href: "results/2026-02-24/P5.qmd"
+            text: "Práctica 5: Búsquedas programáticas en la base de datos ENA"
+          - href: "results/2026-03-03/P6.qmd"
+            text: "Práctica 6: Búsquedas programáticas en Interpro"
+          - href: "results/2026-03-10/P7.qmd"
+            text: "Práctica 7: Visualización y exploración de datos"
+          - href: "results/2026-03-24/P8.qmd"
+            text: "Práctica 8: BLAST"
+          - href: "results/2026-03-31/P9.qmd"
+            text: "Práctica 9: Reconstrucción filogenética"
+          - href: "results/2026-04-21/P10.qmd"
+            text: "Práctica 10: Ensamblaje de genomas"
+          - href: "results/2026-04-28/P11.qmd"
+            text: "Práctica 11: Anotación"
+          - href: "results/2026-05-05/P12.qmd"
+            text: "Práctica 12: Análisis de la expresión diferencial"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual

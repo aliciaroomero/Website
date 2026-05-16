@@ -1,0 +1,118 @@
+    1  sudo apt update
+    2  sudo apt install git build-essential autoconf automake libtool python3 r-base
+    3  apt install emboss exonerate wget muscle
+    4  sudo apt install emboss exonerate wget muscle
+    5  pwd
+    6  cd Bpracticas
+    7  cd
+    8  cd "Bpracticas"
+    9  cd ..
+   10  cd Bpracticas
+   11  cd Desktop
+   12  pwd
+   13  ls-lh
+   14  cd Documentos/
+   15  ls - lh
+   16  ls-lh
+   17  cd ..
+   18  cd Escritorio/
+   19  cd Documentos/
+   20  pwd
+   21  cd Desktop
+   22  cd Desktop/
+   23  pwd
+   24  cd..
+   25  cd ..
+   26  cd Bpracticas/
+   27  pwd
+   28  mkdir cuaderno
+   29  cd cuaderno
+   30  pwd
+   31  mkdir data
+   32  mkdir doc
+   33  mkdir results
+   34  cd results
+   35  pwd
+   36  mkdir 2026-01-29
+   37  mkdir 2026-02-03
+   38  mkdir 2026-02-10
+   39  mkdir 2026-02-17
+   40  mkdir 2026-03-03
+   41  mkdir 2020-03-10
+   42  mkdir 2026-03-24
+   43  mkdir 2026-03-31
+   44  mkdir 2026-04-15
+   45  mkdir 2026-04-21
+   46  mkdir 2026-04-28
+   47  mkdir 2026-05-05
+   48  cd 2026-01-29
+   49  cd ..
+   50  pwd
+   51  cd 2026-01-29
+   52  pwd
+   53  mv guio-es.Qmd README.qmd
+   54  needle -help - verbose
+   55  water -help - verbose
+   56  git --version
+   57  apt install git
+   58  git config --global user.name "Alicia Romero"
+   59  git config --global user.email "osuna2@alumni.uv.es"
+   60  git config--list
+   61  git --help
+   62  git config --global core.editor "nano -w"
+   63  git config --global init.defaylBranch soca
+   64  git config --list
+   65  git init
+   66  git status
+   67  pwd
+   68  rm -rf .git
+   69  cd cuaderno
+   70  git init
+   71  git status
+   72  git add doc
+   73  git status
+   74  git add results
+   75  git status
+   76  git commit -m "Iniciada la primera práctica, aunque el alineamiento no está hecho todavía."
+   77  git status
+   78  git log
+   79  .gitignore
+   80  data/
+   81  *.bam
+   82  .gitignore
+   83  data/
+   84  *.bam
+   85  .gitignore
+   86  nano .gitignore
+   87  git log
+   88  nano LICENSE.txt
+   89  ssh-keygen -t ed25519 -C "osuna2@alumni.uv.es"
+   90  cat ~/.ssh/ed25519.pub
+   91  cd .ssh
+   92  cd ..
+   93  cat ~/.ssh/ed25519.pub
+   94  cd cuaderno
+   95  cd ..
+   96  cd .ssh
+   97  cat ~/.ssh/ed25519.pub
+   98  cd ..
+   99  cat ~/.ssh/ed25519.pub
+  100  cd cuaderno
+  101  cat ~/.ssh/id_ed25519.pub
+  102  git remote add origin git@github.com:aliciaroomero/cuaderno.git
+  103  git push -u origin soca
+  104  git config --list
+  105  git status
+  106  git add LICENSE.txt
+  107  git commit "Mensaje sobre licencia"
+  108  git status
+  109  git push -u origin master
+  110  git push
+  111  git pull
+  112  git fetch
+  113  git status
+  114  git commit -m "Mensaje acerca de la licencia utilizada"
+  115  git status
+  116  git push
+  117  history> archivo.txt
+  118  history > practica2
