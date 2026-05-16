@@ -1,8 +1,0 @@
-
-*.Identifier
-.quarto/
-.Rproj.user/
-.Rhistory
-.RData
-
-/.quarto/
